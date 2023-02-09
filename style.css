@@ -1,0 +1,96 @@
+* {
+    margin: 0;
+    padding: 0;
+    color: black;
+    font-family: 'Roboto', 'Sans-serif';
+}
+
+h1 {
+    font-family: 'Montserrat', 'sans-serif';
+}
+
+ul, ol {
+    list-style: none;
+}
+
+body {
+    background-color: #f5f8fd;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    overflow-y: scroll;
+}
+
+body::-webkit-scrollbar {
+    display: none;
+}
+
+body {
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;  /* Firefox */
+}
+
+nav {
+    position: fixed;
+    top: 0;
+    width: 100vw;
+    height: 67px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+    background-color: #f5f8fd;
+}
+
+nav p {
+    margin: 0 50px
+}
+
+.nav-name {
+    margin: 30px;
+    font-size: 1.4em;
+    font-weight: 800;
+}
+
+.contact-butt {
+    margin: 50px;
+    text-decoration: none;
+}
+
+.contact-butt:hover {
+    color: #6c6c6c;
+}
+
+.hero {
+    margin: 50px 0 0 0;
+    width: auto;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2) inset;
+}
+
+.hero-text {
+    margin: 0 0 0 100px;
+    width: 900px;
+    font-family: 'Montserrat', 'sans-serif';
+}
+
+.hero-text h1 {
+    font-weight: 900;
+    font-size: 3em;
+}
+
+.hero-text p {
+    margin: 5px;
+    font-size: 1.3em;
+}
+
+.pfp {
+    margin: auto;
+    height: 680px;
+    width: auto;
+}
